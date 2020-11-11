@@ -9,7 +9,7 @@ numpy
 matplotlib  
 
 ## dataset
-The original data is saved in the dataset_origin folder. There are six kinds of plant pictures: Lotus magnolia tree, Redrlowered Loropetalum, maple, Camphora officinarum, cypress, ginkgo, which are stored in six folders. There are two sizes of pictures: 369x800 and 450x800.  
+The original data is saved in the dataset_origin folder. There are six kinds of plant pictures: *Lotus magnolia tree*, *Redrlowered Loropetalum, maple*, *Camphora officinarum*, *cypress*, *ginkgo*, which are stored in six folders. There are two sizes of pictures: 369x800 and 450x800.  
 
 Run gen_train_test_val.py to generate training set, verification set and test set. The default ratio is 8:1:1, which can be set by modifying parameters.
 
@@ -17,3 +17,4 @@ Run gen_train_test_val.py to generate training set, verification set and test se
 Run train.py to train the model. The model and trained weight parameters will be saved in folder work_dirs.
 
 ## test
+Run test.py to test the model.
